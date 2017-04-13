@@ -1,5 +1,5 @@
 // Problem Name: 猜数
-// Source: [UER#1] UOJ Round #1, Problem A
+// Source: [UER#1] UOJ Easy Round #1, Problem A
 
 #include <cstdio>
 #include <cmath>
