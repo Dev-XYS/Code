@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
 class Solution {
 public:
 	struct sort_struct {
@@ -17,8 +13,10 @@ public:
 		vector<sort_struct> F;
 		F.reserve(n * (n - 1) / 2);
 		int p = 0;
-		for (int i = 0; i < n; i++) {
-			for (int j = i + 1; j < n; j++) {
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = i + 1; j < n; j++)
+			{
 				F.push_back((sort_struct){ (double)A[i] / A[j], A[i], A[j] });
 			}
 		}
@@ -26,12 +24,3 @@ public:
 		return { F[K - 1].p, F[K - 1].q };
 	}
 };
-
-int main()
-{
-	Solution S;
-	vector<int> A = { 1, 2, 3, 5 };
-	vector<int> ans = S.kthSmallestPrimeFraction(A, 3);
-	printf("%d %d\n", ans[0], ans[1]);
-	return 0;
-}
