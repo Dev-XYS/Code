@@ -1,2 +1,8 @@
+# Temporary Files
 *~
-a.out
+
+# Emacs Backup Files
+\#*\#
+
+# Executables
+*.out
