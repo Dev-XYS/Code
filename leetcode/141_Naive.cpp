@@ -23,4 +23,4 @@ public:
 		}
 		return false;
 	}
-}
+};
