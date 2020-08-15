@@ -4,5 +4,6 @@
 # Emacs Backup Files
 \#*\#
 
-# Executables
+# Input and Output Files
+*.in
 *.out
